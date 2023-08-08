@@ -15,6 +15,10 @@ public class FirstGetEndPointAutomationTest {
 	public void testCase() {
 
 		
+		
+		
+		System.out.println("tttt");
+		
 		RequestSpecification requestSpecification = RestAssured.given();
 
 		requestSpecification.contentType("application/json");
